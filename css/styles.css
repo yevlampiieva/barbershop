@@ -1,0 +1,379 @@
+:root {
+  --first-brand-color: #303030;
+  --second-brand-color: #9da4bd;
+  --thirth-brand-color: #555555;
+  --white-color: #ffffff;
+  --accent-color: #ff6c00;
+  --first-background-color: #ffffff;
+  --second-background-color: #f7f7f7;
+  --thirth-background-color: #191c26;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  color: var(--first-brand-color);
+  background-color: var(--first-background-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.title {
+  font-family: "Raleway";
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
+}
+
+.suptitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  background-color: transparent;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/*----------HEADER----------*/
+.header {
+  background-color: var(--thirth-background-color);
+}
+
+.nav {
+}
+.header-logo-link {
+}
+.header-logo {
+}
+.nav-list {
+}
+.nav-list-item {
+}
+
+.nav-list-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: var(--white-color);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: var(--accent-color);
+}
+
+.header-contact {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.header-contact:hover,
+.header-contact:focus {
+  color: var(--accent-color);
+}
+
+.header-btn {
+  color: var(--white-color);
+  border: 1px solid var(--accent-color);
+}
+
+.header-btn:hover,
+.header-btn:focus {
+  background-color: var(--accent-color);
+}
+
+/*----------HERO----------*/
+.hero {
+  background-color: var(--thirth-background-color);
+}
+.hero-list {
+}
+
+.hero-list-item {
+}
+
+.hero-list-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--first-brand-color);
+}
+
+.hero-list-link:hover,
+.hero-list-link:focus {
+  color: var(--accent-color);
+}
+
+.hero-suptitle {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+  font-size: 72px;
+  line-height: 1.18;
+  color: var(--white-color);
+}
+
+.hero-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--second-brand-color);
+}
+
+/*----------ABOUT----------*/
+
+.about {
+}
+.about-list {
+}
+
+.about-list-item {
+}
+.about-suptitle {
+}
+
+.about-title {
+}
+
+.about-subtitle {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--thirth-brand-color);
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+  color: var(--thirth-brand-color);
+}
+
+.about-btn {
+  border: 1px solid var(--accent-color);
+}
+
+.about-btn:is(:hover, :focus) {
+  color: var(--white-color);
+  background-color: var(--accent-color);
+}
+
+/*----------SERVICES AND PRICES----------*/
+
+.services {
+  background-color: var(--thirth-background-color);
+}
+
+.services-suptitle {
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.services-title {
+  color: var(--white-color);
+}
+
+.price-list {
+}
+
+.price-list-item {
+}
+
+.price-list-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--second-brand-color);
+}
+
+.services-btn {
+  color: var(--white-color);
+  border: 1px solid var(--accent-color);
+}
+
+.services-btn:is(:hover, :focus) {
+  background-color: var(--accent-color);
+}
+
+/*----------OUR FEATURE----------*/
+
+.feature {
+}
+.feature-list {
+}
+
+.feature-list-item {
+}
+
+.feature-list-item > span {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+.feature-item-text {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+.feature-suptitle {
+}
+.feature-title {
+}
+.feature-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--thirth-brand-color);
+}
+
+/*----------OUR BARBERS----------*/
+
+.barbers {
+  background-color: var(--second-background-color);
+}
+
+.barbers-suptitle {
+}
+.barbers-title {
+}
+.barbers-list {
+}
+
+.barbers-list-item {
+}
+.berber-name {
+  font-size: 18px;
+  line-height: 1.39;
+  letter-spacing: 0.02em;
+}
+.barber-position {
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+}
+
+/*----------PORTFOLIO----------*/
+
+.portfolio {
+}
+
+.portfolio-suptitle {
+}
+.portfolio-list {
+}
+
+.portfolio-list-item {
+}
+
+/*----------ONLINE BOOKING----------*/
+.booking {
+  background-color: var(--thirth-background-color);
+}
+.booking-title {
+  color: var(--white-color);
+}
+
+/*----------CONTACTS----------*/
+
+.contacts {
+  background-color: var(--thirth-background-color);
+}
+.contacts-title {
+  color: var(--white-color);
+}
+.contacts-address {
+  font-style: normal;
+}
+.contacts-list {
+}
+
+.contacts-list-item {
+}
+.contacts-link.bold {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--second-brand-color);
+}
+.contacts-link {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--second-brand-color);
+}
+
+.contacts-suptitle {
+  color: var(--white-color);
+}
+.contacts-text {
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: var(--second-brand-color);
+}
+
+/*----------FOOTER----------*/
+.footer {
+  background-color: var(--second-background-color);
+}
+.footer-copyright {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: var(--second-brand-color);
+}
+.footer-social-list {
+}
+
+.footer-social-item {
+}
+.footer-social-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: inherit;
+}
+.footer-social-link:is(:hover, :focus) {
+  color: var(--accent-color);
+}
